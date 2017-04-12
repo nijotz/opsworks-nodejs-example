@@ -7,4 +7,4 @@ app.get('/', function(req, res){
 });
 
 var port = process.env.NODE_ENV == 'development' ? 3000 : 80;
-app.listen(port);
+app.listen(port, '0.0.0.0');
